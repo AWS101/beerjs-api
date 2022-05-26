@@ -1,5 +1,5 @@
 {
-  "name": "express-api-starter",
+  "name": "beerjs-api",
   "version": "1.2.0",
   "description": " A basic starter for an express.js API",
   "main": "index.js",
@@ -21,7 +21,8 @@
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "helmet": "^4.6.0",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "serverless-http": "^3.0.1"
   },
   "devDependencies": {
     "eslint": "^7.28.0",
