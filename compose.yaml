@@ -1,0 +1,10 @@
+services:
+  beerjs-api:
+    restart: on-failure
+    build: .
+    command: node_modules/.bin/nodemon
+    hostname: beerjs-api
+    ports:
+      - '3000:3000'
+    env_file:
+      - .env
